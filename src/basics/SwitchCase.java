@@ -2,29 +2,26 @@ package basics;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        int choice = 5;
-        String dayOfTheWeek = "Monday";
 
-        switch (dayOfTheWeek) {
-            case "Monday":
+        String dayOfTheWeek = args[0];
+
+        switch (dayOfTheWeek.toLowerCase()) {
+            case "monday":
                 System.out.println("this is a first working day");
                 break;
-            case "Tuesday":
+            case "tuesday":
                 System.out.println("this is a second working day");
                 break;
-            case "Wednesday":
+            case "wednesday":
                 System.out.println("this is a third working day");
                 break;
-            case "Thursday":
+            case "thursday":
                 System.out.println("this is a fourth working day");
                 break;
-            case "Friday":
+            case "friday":
                 System.out.println("this is a fifth working day");
                 break;
-            case "Saturday":
-                System.out.println("Finally weekend");
-                break;
-            case "Sunday":
+            case "saturday": case "sunday":
                 System.out.println("Finally weekend");
                 break;
             default:
