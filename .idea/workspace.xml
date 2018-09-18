@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf37f69-370c-4435-870a-116b49615b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,50 +16,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basics/WhileAndDoWhileLoop.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="1682" column="7" lean-forward="true" selection-start-line="1682" selection-start-column="7" selection-end-line="1682" selection-end-column="7" />
-              <folding>
-                <element signature="e#66457#66458#0" expanded="true" />
-                <element signature="e#66495#66496#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +61,8 @@
         <option value="$PROJECT_DIR$/src/basics/SwitchCase.java" />
         <option value="$PROJECT_DIR$/src/basics/Methods.java" />
         <option value="$PROJECT_DIR$/src/basics/Strings.java" />
+        <option value="$PROJECT_DIR$/src/oop/Main.java" />
+        <option value="$PROJECT_DIR$/src/oop/Dog.java" />
       </list>
     </option>
   </component>
@@ -119,7 +94,7 @@
               <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537275039067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537284722079" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -151,13 +126,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Strings">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ForStatement" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="basics.ForStatement" />
       <module name="JavaFromSimpleToComplex" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Main" />
+      <module name="JavaFromSimpleToComplex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,26 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileAndDoWhileLoop" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="basics.WhileAndDoWhileLoop" />
-      <module name="JavaFromSimpleToComplex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Strings" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.ForStatement" />
-        <item itemvalue="Application.WhileAndDoWhileLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +214,7 @@
       <updated>1536832511317</updated>
       <workItem from="1536832515837" duration="3914000" />
       <workItem from="1536850950757" duration="17981000" />
-      <workItem from="1537263401407" duration="7905000" />
+      <workItem from="1537263401407" duration="10930000" />
     </task>
     <task id="LOCAL-00001" summary="if-else statement lesson">
       <created>1536908158206</created>
@@ -276,17 +251,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537270014161</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="strings lesson">
+      <created>1537275068637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537275068637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29800000" />
+    <option name="totallyTimeSpent" value="32825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17665036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +308,8 @@
     <MESSAGE value="For Loop lesson" />
     <MESSAGE value="switch case lesson(not finished)" />
     <MESSAGE value="methods lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods lesson" />
+    <MESSAGE value="strings lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="strings lesson" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basics/IfElseClass.java" />
@@ -365,20 +348,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/WhileAndDoWhileLoop.java">
+    <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,15 +372,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
+    <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basics/WhileAndDoWhileLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
