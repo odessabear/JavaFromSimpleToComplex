@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf37f69-370c-4435-870a-116b49615b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,14 +23,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="1682" column="7" lean-forward="true" selection-start-line="1682" selection-start-column="7" selection-end-line="1682" selection-end-column="7" />
+              <folding>
+                <element signature="e#66457#66458#0" expanded="true" />
+                <element signature="e#66495#66496#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,14 +87,15 @@
         <option value="$PROJECT_DIR$/src/basics/ForStatement.java" />
         <option value="$PROJECT_DIR$/src/basics/SwitchCase.java" />
         <option value="$PROJECT_DIR$/src/basics/Methods.java" />
+        <option value="$PROJECT_DIR$/src/basics/Strings.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2074" />
-    <option name="y" value="7" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1920" />
+    <option name="y" value="14" />
+    <option name="width" value="1680" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,9 +132,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537269805747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537275039067" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Methods">
+  <component name="RunManager" selected="Application.Strings">
     <configuration name="ForStatement" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="basics.ForStatement" />
       <module name="JavaFromSimpleToComplex" />
@@ -133,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseStatement" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="basics.IfElseStatement" />
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Methods" />
       <module name="JavaFromSimpleToComplex" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Methods" />
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Strings" />
       <module name="JavaFromSimpleToComplex" />
       <extension name="coverage">
         <pattern>
@@ -187,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strings" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.ForStatement" />
         <item itemvalue="Application.WhileAndDoWhileLoop" />
-        <item itemvalue="Application.IfElseStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +239,7 @@
       <updated>1536832511317</updated>
       <workItem from="1536832515837" duration="3914000" />
       <workItem from="1536850950757" duration="17981000" />
-      <workItem from="1537263401407" duration="3826000" />
+      <workItem from="1537263401407" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="if-else statement lesson">
       <created>1536908158206</created>
@@ -237,11 +269,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536940090602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="methods lesson">
+      <created>1537270014161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537270014161</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25721000" />
+    <option name="totallyTimeSpent" value="29800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
@@ -286,7 +325,8 @@
     <MESSAGE value="While And Do-While Loop lesson" />
     <MESSAGE value="For Loop lesson" />
     <MESSAGE value="switch case lesson(not finished)" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch case lesson(not finished)" />
+    <MESSAGE value="methods lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods lesson" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/basics/IfElseClass.java" />
@@ -334,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#735#736#0" expanded="true" />
@@ -343,12 +383,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="1682" column="7" lean-forward="true" selection-start-line="1682" selection-start-column="7" selection-end-line="1682" selection-end-column="7" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaFromSimpleToComplex</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
