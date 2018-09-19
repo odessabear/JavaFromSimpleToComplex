@@ -4,69 +4,37 @@ public class Dog {
 
     private static int dogsCount;
 
-    private int paws = 4;
-    private int tale = 1;
+    public static final int PAWS = 4;
+    public static final int TALE = 1;
     private String name;
     private String breed;
-    private String size;
+    private Size size = Size.UNDEFINED;
 
-    public Dog(){
+    public Dog() {
         dogsCount++;
         System.out.println("Dog's count is " + dogsCount);
     }
 
-    public static int getDogsCount(){
+    public static int getDogsCount() {
         return dogsCount;
     }
 
-    public String getSize() {
+    public Size getSize() {
         return size;
     }
 
-    public void setSize(String size) {
-        if (size.equalsIgnoreCase("big")||
-                size.equalsIgnoreCase("average")||
-                size.equalsIgnoreCase("small")) {
-            this.size = size;
-        }else
-            System.out.println("Size should be one of these : Big , Average or Small!");
+    public void setSize(Size size) {
+        this.size = size;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setPaws(int paws){
-        if (paws == 4) {
-            this.paws = paws;
-        }else {
-            System.out.println("User tried to assign " + paws + " paws for a dog");
-            System.out.println("Correct number is 4!");
-        }
-    }
-
-    public int getPaws(){
-        return paws;
-    }
-
-    public int getTale() {
-
-        return tale;
-    }
-
-    public void setTale(int tale) {
-        if (tale == 1){
-        this.tale = tale;}
-        else {
-            this.tale = 1;
-            System.out.println("User tried to assign " + tale + " tails for dog");
-            System.out.println("Correct number is 1 !!!");
-        }
-    }
 
     public String getBreed() {
         return breed;
@@ -76,20 +44,25 @@ public class Dog {
         this.breed = breed;
     }
 
-    public void bark(){
-        if (size.equalsIgnoreCase("Big")){
-            System.out.println("woof-woof");
-        }else if (size.equalsIgnoreCase("Average")){
-            System.out.println("raf-raf");
-        }else {
-            System.out.println("tiaf-tiaf");
-        }
+    public void bark() {
+      switch (size){
+          case BIG:case VERY_BIG:
+              System.out.println("woof-woof");
+              break;
+          case AVERAGE:
+              System.out.println("raf-raf");
+              break;
+          case SMALL:case VERY_SMALL:
+              System.out.println("tiaf-tiaf");
+              default:
+                  System.out.println("Dog's size is undefined");
+      }
 
     }
 
-    public void bite(){
-        if (dogsCount>2){
+    public void bite() {
+        if (dogsCount > 2) {
             System.out.println("Dogs are biting you");
-        }else bark();
+        } else bark();
     }
 }
