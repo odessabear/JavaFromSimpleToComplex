@@ -3,7 +3,7 @@ package inheritance;
 public class Bus extends FuelAuto {
     private int passengerNumber;
 
-    public Bus(String producer, String model, EngineType engineType, int availablePatrol, int tankVolume, int passengerNumber) {
+    public Bus(String producer, String model, Engine engineType, int availablePatrol, int tankVolume, int passengerNumber) {
         super(producer, model, engineType, availablePatrol, tankVolume);
         this.passengerNumber = passengerNumber;
         System.out.println("Bus was initialized");
