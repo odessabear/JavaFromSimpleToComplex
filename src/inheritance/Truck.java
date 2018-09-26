@@ -11,6 +11,19 @@ public class Truck extends FuelAuto{
     }
 
 
+    @Override
+    public void start() {
+        isRunning = true;
+        setCurrentSpeed(10);
+        System.out.println("Truck is starting");
+    }
+
+    @Override
+    public void stop() {
+        isRunning = false;
+        setCurrentSpeed(10);
+        System.out.println("Truck has stopped");
+    }
 
     public int getCargoWeight() {
         return cargoWeight;

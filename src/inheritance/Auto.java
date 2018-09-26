@@ -52,4 +52,8 @@ public class Auto {
     public boolean isRunning() {
         return isRunning;
     }
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
 }
