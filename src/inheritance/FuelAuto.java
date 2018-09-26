@@ -1,6 +1,6 @@
 package inheritance;
 
-public class FuelAuto extends Auto {
+public abstract class FuelAuto extends Auto {
     private int availablePatrol;
     private int tankVolume;
 
