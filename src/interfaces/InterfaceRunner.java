@@ -8,12 +8,15 @@ public class InterfaceRunner {
         Priceable fridge = new Fridge("LG", "E9090", 1, 300);
 
         printDeliveryPrice(phone);
+        System.out.println();
         printDeliveryPrice(pizza);
+        System.out.println();
         printDeliveryPrice(fridge);
     }
 
     private static void printDeliveryPrice(Priceable del) {
         System.out.println("Delivery price is " + del.calcDeliveryPrice());
         System.out.println("Delivery price is " + del.calcOrderPrice());
+        System.out.println("Summary price is " + del.calccPrice());
     }
 }
