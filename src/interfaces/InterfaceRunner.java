@@ -3,16 +3,17 @@ package interfaces;
 public class InterfaceRunner {
     public static void main(String[] args) {
 
-        Deliverable pizza = new Pizza("Neapolitano", 1, 20, Size.L);
-        Deliverable phone = new CellPhone("Motorola", "XT1573", 1, 250);
-        Deliverable fridge = new Fridge("LG", "E9090", 1, 300);
+        Priceable pizza = new Pizza("Neapolitano", 1, 20, Size.L);
+        Priceable phone = new CellPhone("Motorola", "XT1573", 1, 250);
+        Priceable fridge = new Fridge("LG", "E9090", 1, 300);
 
         printDeliveryPrice(phone);
         printDeliveryPrice(pizza);
         printDeliveryPrice(fridge);
     }
 
-    private static void printDeliveryPrice(Deliverable del) {
+    private static void printDeliveryPrice(Priceable del) {
         System.out.println("Delivery price is " + del.calcDeliveryPrice());
+        System.out.println("Delivery price is " + del.calcOrderPrice());
     }
 }

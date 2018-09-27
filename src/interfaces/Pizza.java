@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Pizza implements Deliverable,Orderable {
+public class Pizza implements Priceable {
 
     private String name;
     private int quantity;
