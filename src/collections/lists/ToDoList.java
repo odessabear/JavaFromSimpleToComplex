@@ -10,7 +10,7 @@ public class ToDoList {
         toDoList.add(task);
     }
 
-    public void addToLitstAtPosition(int position, String task) {
+    public void addToListAtPosition(int position, String task) {
         toDoList.add(position, task);
     }
 
