@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf37f69-370c-4435-870a-116b49615b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collections/autoboxing/CollectionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/collections/lists/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/collections/lists/ToDoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +30,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="199">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="97" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#695#696#0" expanded="true" />
                 <element signature="e#728#729#0" expanded="true" />
                 <element signature="e#760#761#0" expanded="true" />
                 <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +149,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="autoboxing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionsClass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541608523289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541704304693" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -413,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541602263282</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Collection Class lessons">
+      <created>1541608637139</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1541608637139</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126161000" />
+    <option name="totallyTimeSpent" value="134270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1934" y="4" width="1658" height="1046" extended-state="0" />
@@ -432,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49687108" visible="true" weight="0.34901533" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49687108" visible="true" weight="0.60175055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.32976446" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031289" side_tool="true" visible="true" weight="0.34901533" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031289" side_tool="true" weight="0.34901533" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49938875" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -495,7 +515,8 @@
     <MESSAGE value="exceptions last lessons start" />
     <MESSAGE value="arrayList lesson - continuation" />
     <MESSAGE value="Liked List lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Liked List lessons" />
+    <MESSAGE value="Collection Class lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection Class lessons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java" />
@@ -960,11 +981,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/autoboxing/CollectionMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#376#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -978,14 +998,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="199">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="97" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
             <element signature="e#728#729#0" expanded="true" />
             <element signature="e#760#761#0" expanded="true" />
             <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
           </folding>
         </state>
       </provider>
