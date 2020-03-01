@@ -35,14 +35,18 @@ public class ToDoList {
 //        for (int i = 0; i < toDoList.size(); i++) {
 //            System.out.println(i + " - " + toDoList.get(i));
 //        }
-        Iterator<String> iterator = toDoList.iterator();
-        while (iterator.hasNext()) {
-            System.out.println("Element " + iterator.next());
+        for (String s : toDoList) {
+            System.out.println("Element " + s);
         }
     }
 
     public void changeTask(int index, String task) {
-        toDoList.set(index, task);
+        int lastIndex = toDoList.size();
+        if (lastIndex>index||lastIndex<0) {
+
+        }else {
+            toDoList.set(index,task);
+        }
     }
 
     public void removeTask(String task) {

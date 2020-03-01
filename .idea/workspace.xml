@@ -1,211 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bf37f69-370c-4435-870a-116b49615b5d" name="Default Changelist" comment="">
+    <list default="true" id="1d4bed28-0c2a-43f5-b743-3bf4179ef309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/generics/BoxList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/GenericMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/GenericsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/MyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/CompanyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/employees/Accountant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/employees/ITSpecialist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/company/employees/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/META-INF/JavaFromSimpleToComplex.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/collections/lists/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/collections/lists/ToDoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/exceptions/ExceptionHandlingMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFromSimpleToComplex/exceptions/ExceptionHandlingMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/lists/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/lists/ToDoList.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="143" column="44" lean-forward="true" selection-start-line="143" selection-start-column="44" selection-end-line="143" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="97" />
-              <folding>
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>for (int j = 0; j &lt; myArray.length; j++)</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/basics/TypeCasting.java" />
-        <option value="$PROJECT_DIR$/src/basics/Operators.java" />
-        <option value="$PROJECT_DIR$/src/basics/IfElseClass.java" />
-        <option value="$PROJECT_DIR$/src/basics/IfElseStatement.java" />
-        <option value="$PROJECT_DIR$/src/basics/WhileAndDoWhileLoop.java" />
-        <option value="$PROJECT_DIR$/src/basics/ForStatement.java" />
-        <option value="$PROJECT_DIR$/src/basics/SwitchCase.java" />
-        <option value="$PROJECT_DIR$/src/basics/Methods.java" />
-        <option value="$PROJECT_DIR$/src/basics/Strings.java" />
-        <option value="$PROJECT_DIR$/src/oop/Size.java" />
-        <option value="$PROJECT_DIR$/src/oop/Dog.java" />
-        <option value="$PROJECT_DIR$/src/oop/Main.java" />
-        <option value="$PROJECT_DIR$/src/domainmodel/Employee.java" />
-        <option value="$PROJECT_DIR$/src/constructors/ConstructorsMain.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/EngineType.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Car.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/PatrolAuto.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/FutellAuto.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Engine.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Piston.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/FuelAuto.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Truck.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Bus.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/InheritanceMain.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Auto.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/ElectricCar.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Size.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Deliverable.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Fridge.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/CellPhone.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Electronics.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Orderable.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Priceable.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/Main.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/InterfaceRunner.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/Display.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/RadioModule.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/InnerMain.java" />
-        <option value="$PROJECT_DIR$/src/innerclasses/CellPhone.java" />
-        <option value="$PROJECT_DIR$/../ThinkingInJava/src/A.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/InvalidInputParamException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/ExceptionHandlingMain.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/SwelfClosable.java" />
-        <option value="$PROJECT_DIR$/src/collections/ArrayLauncher.java" />
-        <option value="$PROJECT_DIR$/src/collections/Dies.java" />
-        <option value="$PROJECT_DIR$/src/collections/GradeBook.java" />
-        <option value="$PROJECT_DIR$/src/collections/lists/ListRunner.java" />
-        <option value="$PROJECT_DIR$/src/collections/lists/ToDoList.java" />
-        <option value="$PROJECT_DIR$/src/collections/autoboxing/CollectionMain.java" />
-        <option value="$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1356" />
-    <option name="height" value="737" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="autoboxing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFromSimpleToComplex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFromSimpleToComplex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="collectionsClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1YUyfwt6riVIMDyWaxnrBNKju89" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541704304693" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="innerclasses" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.CollectionsRunner">
-    <configuration name="CollectionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.autoboxing.CollectionMain" />
+  <component name="RunManager" selected="Application.GenericMethods">
+    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
       <module name="JavaFromSimpleToComplex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.autoboxing.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,51 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.collectionsClass.CollectionsRunner" />
+    <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericsMain" />
       <module name="JavaFromSimpleToComplex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.collectionsClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeBook (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.arrays.GradeBook" />
-      <module name="JavaFromSimpleToComplex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.GradeBook" />
-      <module name="JavaFromSimpleToComplex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.lists.ListRunner" />
-      <module name="JavaFromSimpleToComplex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.lists.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionsRunner" />
-        <item itemvalue="Application.CollectionMain" />
-        <item itemvalue="Application.ListRunner" />
-        <item itemvalue="Application.GradeBook (1)" />
-        <item itemvalue="Application.GradeBook" />
+        <item itemvalue="Application.GenericMethods" />
+        <item itemvalue="Application.GenericsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -280,823 +88,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bf37f69-370c-4435-870a-116b49615b5d" name="Default Changelist" comment="" />
-      <created>1536832511317</created>
+      <changelist id="1d4bed28-0c2a-43f5-b743-3bf4179ef309" name="Default Changelist" comment="" />
+      <created>1583011574497</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536832511317</updated>
-      <workItem from="1536832515837" duration="3914000" />
-      <workItem from="1536850950757" duration="17981000" />
-      <workItem from="1537263401407" duration="17007000" />
-      <workItem from="1537807508823" duration="27261000" />
-      <workItem from="1538062508175" duration="17084000" />
-      <workItem from="1539791293210" duration="18912000" />
-      <workItem from="1540493016681" duration="3310000" />
+      <updated>1583011574497</updated>
     </task>
-    <task id="LOCAL-00001" summary="if-else statement lesson">
-      <created>1536908158206</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1536908158206</updated>
-    </task>
-    <task id="LOCAL-00002" summary="While And Do-While Loop lesson">
-      <created>1536927542023</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1536927542023</updated>
-    </task>
-    <task id="LOCAL-00003" summary="For Loop lesson">
-      <created>1536938110356</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1536938110356</updated>
-    </task>
-    <task id="LOCAL-00004" summary="switch case lesson(not finished)">
-      <created>1536940090602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1536940090602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="methods lesson">
-      <created>1537270014161</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1537270014161</updated>
-    </task>
-    <task id="LOCAL-00006" summary="strings lesson">
-      <created>1537275068637</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1537275068637</updated>
-    </task>
-    <task id="LOCAL-00007" summary="start of the oop lesson">
-      <created>1537288228824</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1537288228824</updated>
-    </task>
-    <task id="LOCAL-00008" summary="constructors and import lessons">
-      <created>1537454387470</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1537454387470</updated>
-    </task>
-    <task id="LOCAL-00009" summary="inheritance lesson part1">
-      <created>1537811692133</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1537811692133</updated>
-    </task>
-    <task id="LOCAL-00010" summary="inheritance lesson part2">
-      <created>1537894544771</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1537894544771</updated>
-    </task>
-    <task id="LOCAL-00011" summary="composition lesson part">
-      <created>1537897088024</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1537897088024</updated>
-    </task>
-    <task id="LOCAL-00012" summary="polymorphism lesson">
-      <created>1537969105585</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1537969105585</updated>
-    </task>
-    <task id="LOCAL-00013" summary="abstract classes lesson">
-      <created>1537971496505</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1537971496505</updated>
-    </task>
-    <task id="LOCAL-00014" summary="interfaces lesson part1">
-      <created>1537984258763</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1537984258763</updated>
-    </task>
-    <task id="LOCAL-00015" summary="interfaces lesson part2">
-      <created>1538030689696</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1538030689696</updated>
-    </task>
-    <task id="LOCAL-00016" summary="inner classes lessons">
-      <created>1538069268319</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1538069268320</updated>
-    </task>
-    <task id="LOCAL-00017" summary="exception lessons start">
-      <created>1538150064301</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1538150064301</updated>
-    </task>
-    <task id="LOCAL-00018" summary="exceptions last lessons start">
-      <created>1539965686096</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1539965686096</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Liked List lessons">
-      <created>1541602263282</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1541602263282</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Collection Class lessons">
-      <created>1541608637139</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1541608637139</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134270000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1934" y="4" width="1658" height="1046" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18210264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49687108" visible="true" weight="0.60175055" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49938875" weight="0.32976446" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5031289" side_tool="true" weight="0.34901533" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49938875" weight="0.3290461" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="if-else statement lesson" />
-    <MESSAGE value="While And Do-While Loop lesson" />
-    <MESSAGE value="For Loop lesson" />
-    <MESSAGE value="switch case lesson(not finished)" />
-    <MESSAGE value="methods lesson" />
-    <MESSAGE value="strings lesson" />
-    <MESSAGE value="start of the oop lesson" />
-    <MESSAGE value="enums lesson" />
-    <MESSAGE value="constructors and import lessons" />
-    <MESSAGE value="inheritance lesson part1" />
-    <MESSAGE value="inheritance lesson part2" />
-    <MESSAGE value="composition lesson part" />
-    <MESSAGE value="polymorphism lesson" />
-    <MESSAGE value="abstract classes lesson" />
-    <MESSAGE value="interfaces lesson part1" />
-    <MESSAGE value="interfaces lesson part2" />
-    <MESSAGE value="inner classes lessons" />
-    <MESSAGE value="exception lessons start" />
-    <MESSAGE value="exceptions last lessons start" />
-    <MESSAGE value="arrayList lesson - continuation" />
-    <MESSAGE value="Liked List lessons" />
-    <MESSAGE value="Collection Class lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection Class lessons" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/basics/Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/WhileAndDoWhileLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/EngineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/InheritanceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/ElectricCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/FuelAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Piston.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Fridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Orderable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/CellPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Deliverable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Priceable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/InterfaceRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Electronics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/constructors/ConstructorsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domainmodel/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/RadioModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/CellPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclasses/InnerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Cloneable.java" />
-    <entry file="file://$PROJECT_DIR$/src/exceptions/SwelfClosable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/ExceptionHandlingMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/InvalidInputParamException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/ArrayLauncher.java" />
-    <entry file="file://$PROJECT_DIR$/src/collections/Dies.java" />
-    <entry file="file://$PROJECT_DIR$/src/collections/GradeBook.java" />
-    <entry file="file://$PROJECT_DIR$/src/collections/lists/ListRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/lists/ToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/arrays/ArrayLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/arrays/Dies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/arrays/GradeBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/autoboxing/CollectionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="143" column="44" lean-forward="true" selection-start-line="143" selection-start-column="44" selection-end-line="143" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/collectionsClass/CollectionsRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="97" />
-          <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JavaFromSimpleToComplex</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="493" y="64" width="536" height="647" key="#com.intellij.ide.util.MemberChooser" timestamp="1583077330111">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="493" y="64" width="536" height="647" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583077330111" />
+    <state x="223" y="27" width="914" height="741" key="CommitChangelistDialog2" timestamp="1583095732360">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="223" y="27" width="914" height="741" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583095732360" />
+    <state width="1318" height="170" key="GridCell.Tab.0.bottom" timestamp="1583076393385">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393385" />
+    <state width="1318" height="170" key="GridCell.Tab.0.center" timestamp="1583076393384">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="170" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
+    <state width="1318" height="170" key="GridCell.Tab.0.left" timestamp="1583076393384">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="170" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
+    <state width="1318" height="170" key="GridCell.Tab.0.right" timestamp="1583076393384">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1318" height="170" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
+    <state width="498" height="447" key="SwitcherDM" timestamp="1583076984637">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="498" height="447" key="SwitcherDM/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076984637" />
+    <state x="347" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1583095581346">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="205" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583095581346" />
   </component>
 </project>
