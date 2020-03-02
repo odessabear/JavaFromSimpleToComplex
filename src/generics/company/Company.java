@@ -1,6 +1,7 @@
 package generics.company;
 
 import generics.company.employees.Employee;
+import generics.company.employees.ITSpecialist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,11 +34,20 @@ public class Company {
         return employees;
     }
 
+     void print(List<?> list){
+        System.out.println("Size " + list.size());
+        System.out.println(list);
+    }
+
+    public void addToITEmployees(List<? super ITSpecialist> list){
+list.add(new ITSpecialist("Gorge", 3500.0f));
+    }
+
     @Override
     public String toString() {
-        return "Company{" +
+        return "Company: "+"\n" + "{" +
                 "departments=" + departments +
                 ", employees=" + employees +
-                '}';
+                '}' + "\n";
     }
 }

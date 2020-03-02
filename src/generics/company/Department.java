@@ -46,10 +46,10 @@ public class Department<T extends Employee> {
 
     @Override
     public String toString() {
-        return "Department{" +
+        return "Department: {" +
                 "name='" + name + '\'' +
                 ", employeeNumber=" + employeeNumber +
     //            ", employees=" + employees +
-                '}';
+                '}' + "\n";
     }
 }
