@@ -11,15 +11,15 @@ public class ToDoList {
     }
 
     private boolean addInAlphabeticalOrder(String task){
-        ListIterator<String> listIterator = toDoList.listIterator();
-        while (listIterator.hasNext()){
-           int compared = listIterator.next().compareTo(task);
+        ListIterator<String> listIter = toDoList.listIterator();
+        while (listIter.hasNext()){
+           int compared = listIter.next().compareTo(task);
            if (compared == 0){
                System.out.println("The task is already exist in the list");
                return true;
            }else if (compared>0){
-               listIterator.previous();
-               listIterator.add(task);
+               listIter.previous();
+               listIter.add(task);
                return true;
            }
         }
@@ -38,6 +38,11 @@ public class ToDoList {
         for (String s : toDoList) {
             System.out.println("Element " + s);
         }
+//        Iterator<String> iterator = toDoList.iterator();
+//        while (iterator.hasNext()){
+//            System.out.println("Element " + iterator.next());
+//        }
+
     }
 
     public void changeTask(int index, String task) {

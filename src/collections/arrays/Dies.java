@@ -15,24 +15,31 @@ public class Dies {
         }
 
 
-        multidimArrayLauncher();
+        multiDimArrayLauncher();
     }
 
-    private static void multidimArrayLauncher(){
+    private static void multiDimArrayLauncher() {
 
-        int[][] a = {{1,2},
-                     {3,4,5,6},
-                     {7,8,9}};
+        int[][] a = {{1, 2},
+                {3, 4, 5, 6},
+                {7, 8, 9}};
 
         int[][] b = new int[3][3];
 
-        int [][] c = new int[2][];
+        int[][] c = new int[2][];
         c[0] = new int[2];
         c[1] = new int[4];
 
-        for (int i = 0;i<a.length;i++){
-            for (int j = 0;j<a[i].length;j++){
-                System.out.print(a[i][j]+ " ");
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                System.out.print(a[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        for (int[] ints : a) {
+            for (int anInt : ints) {
+                System.out.print(anInt + " ");
             }
             System.out.println();
         }
