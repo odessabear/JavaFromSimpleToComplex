@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d4bed28-0c2a-43f5-b743-3bf4179ef309" name="Default Changelist" comment="collections were started">
-      <change afterPath="$PROJECT_DIR$/src/collections/map/MapLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/map/WordWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/set/Car.java" afterDir="false" />
+    <list default="true" id="1d4bed28-0c2a-43f5-b743-3bf4179ef309" name="Default Changelist" comment="collections in the process">
+      <change afterPath="$PROJECT_DIR$/src/collections/map/AverageStudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/map/SubjectGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/map/TreeMapRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/set/SetRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/set/SetRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +47,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/HashSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/io/PrintStream.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Queue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Collections.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/NavigableMap.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Deque.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/io/PrintStream.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Queue.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Set.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Collections.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Objects.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -87,20 +87,7 @@
       <recent name="collections.collectionsClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapLauncher">
-    <configuration name="CollectionsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.collectionsClass.CollectionsRunner" />
-      <module name="JavaFromSimpleToComplex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.collectionsClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeMapRunner">
     <configuration name="MapLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.map.MapLauncher" />
       <module name="JavaFromSimpleToComplex" />
@@ -153,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeMapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.TreeMapRunner" />
+      <module name="JavaFromSimpleToComplex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapRunner" />
         <item itemvalue="Application.MapLauncher" />
         <item itemvalue="Application.SetRunner" />
         <item itemvalue="Application.QueueLauncher" />
         <item itemvalue="Application.StackQueueLauncher" />
-        <item itemvalue="Application.CollectionsRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <workItem from="1588258186039" duration="13455000" />
       <workItem from="1589436744775" duration="2603000" />
       <workItem from="1591018435781" duration="16047000" />
-      <workItem from="1591277818286" duration="31704000" />
+      <workItem from="1591277818286" duration="37661000" />
     </task>
     <task id="LOCAL-00001" summary="generics finished">
       <created>1583169713459</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591372765342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="collections in the process">
+      <created>1593019597724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593019597724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,13 +228,14 @@
     <MESSAGE value="generics finished" />
     <MESSAGE value="collections ware started" />
     <MESSAGE value="collections were started" />
-    <option name="LAST_COMMIT_MESSAGE" value="collections were started" />
+    <MESSAGE value="collections in the process" />
+    <option name="LAST_COMMIT_MESSAGE" value="collections in the process" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="693" y="52" width="536" height="647" key="#com.intellij.ide.util.MemberChooser" timestamp="1593007155138">
+    <state x="693" y="52" width="536" height="647" key="#com.intellij.ide.util.MemberChooser" timestamp="1593070637747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593007155138" />
+    <state x="693" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593070637747" />
     <state x="493" y="64" width="536" height="647" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583077330111" />
     <state x="811" y="411" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583129437897">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -250,25 +258,25 @@
     </state>
     <state x="313" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583169711792" />
     <state x="223" y="27" width="914" height="741" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583095732360" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593018130655">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593075388586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593018130655" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593075388586" />
     <state width="1318" height="170" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593018130655">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593075388586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593018130655" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593075388586" />
     <state width="1318" height="170" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593018130654">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593075388586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593018130654" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593075388586" />
     <state width="1318" height="170" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593018130655">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593075388586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593018130655" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593075388586" />
     <state width="1318" height="170" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076393384" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591197259298">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -286,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591197259298" />
-    <state x="1420" y="862" key="ProcessPopupWindow" timestamp="1591372784604">
+    <state x="1420" y="862" key="ProcessPopupWindow" timestamp="1593019605259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1420" y="862" key="ProcessPopupWindow/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591372784604" />
+    <state x="1420" y="862" key="ProcessPopupWindow/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593019605259" />
     <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1591196220628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,10 +310,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="498" height="447" key="SwitcherDM/0.27.1366.741/1366.0.1280.768@0.27.1366.741" timestamp="1583076984637" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1591372769564">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593019599692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591372769564" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593019599692" />
     <state x="347" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1583095581346">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
