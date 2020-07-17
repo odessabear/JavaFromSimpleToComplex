@@ -2,12 +2,13 @@ package input_output;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
+import java.nio.file.*;
 
 public class FileUtils {
 
     public static void main(String[] args) throws IOException {
-        printIOFileDetails("./");
+        //    printIOFileDetails("BankAccount.txt");
+        printNioFileDetails("GradeBookByte.txt");
     }
 
     public static void printIOFileDetails(String path) throws IOException {
@@ -44,7 +45,52 @@ public class FileUtils {
             System.out.println("Deleting file " + file.delete());
 
             Path filePath = file.toPath();
+            System.out.println(filePath);
         }
+    }
+
+
+    public static void printNioFileDetails(String fileName) throws IOException {
+        Path path = Paths.get(fileName);
+        Path path1 = FileSystems.getDefault().getPath(fileName);
+        Path path2 = Paths.get(System.getProperty("user.dir"), fileName);
+
+        System.out.println("File name: " + path2.getFileName());
+
+        Path absolutePath = path.toAbsolutePath();
+        System.out.println("Root dir: " + absolutePath.getRoot());
+        System.out.println("Absolute path: " + absolutePath);
+        System.out.println("Parent dir: " + absolutePath.getParent());
+        System.out.println("Name count: " + absolutePath.getNameCount());
+        System.out.println("Sub-path: " + absolutePath.subpath(0, 3));
+
+        Path path3 = Paths.get("../../");
+        try {
+            System.out.println("real path " + path3.toRealPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("file exists: " + Files.exists(path2));
+        System.out.println("File doesn't exist: " + Files.notExists(path2));
+        System.out.println("Is readable: " + Files.isReadable(path2));
+        System.out.println("Is Writable: " + Files.isWritable(path2));
+        System.out.println("Is Executable: " + Files.isExecutable(path2));
+
+        try {
+            System.out.println("Is the same file: " + Files.isSameFile(path, path1));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Path parentPath = absolutePath.getParent();
+        Path filesPath = parentPath.resolve("files");
+
+        if (Files.notExists(filesPath)){
+            Files.createDirectory(filesPath);
+        }
+
+        Files.copy(absolutePath, filesPath.resolve("out.txt"),StandardCopyOption.REPLACE_EXISTING);
     }
 
 }
