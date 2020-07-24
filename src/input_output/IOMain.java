@@ -9,8 +9,9 @@ import java.util.*;
 
 public class IOMain {
 
-    private static final String FILE_NAME = "GradeBook.txt";
+    private static final String FILE_NAME = "GradeBookByte.txt";
     private static final String BINARY_FILE = "Students.bin";
+    private static final String BUFFERED_FILE = "Buffered.txt";
 
     public static void main(String[] args) throws IOException {
 
@@ -23,8 +24,20 @@ public class IOMain {
         //writer.writeFile(grades, FILE_NAME);
         //writer.writeWithFormatter();
 
-        processGrades(grades, writer, BINARY_FILE);
-        outputObjects(reader, BINARY_FILE);
+//        processGrades(grades, writer, BINARY_FILE);
+//        outputObjects(reader, BINARY_FILE);
+
+//        reader.readFileInFull(FILE_NAME);
+
+//        reader.nioReadFileWithBuffer(FILE_NAME);
+
+//        writer.nioWriteWithBuffer(BUFFERED_FILE);
+
+//        reader.nioReadWithStream(FILE_NAME);
+
+//        writer.nioWriteWithStream(BUFFERED_FILE);
+
+        reader.nioReadWithChannel(FILE_NAME);
 
     }
 
