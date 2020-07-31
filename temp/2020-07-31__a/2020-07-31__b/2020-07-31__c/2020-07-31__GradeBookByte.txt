@@ -1,0 +1,35 @@
+===========================================
+Student: Victoria Average grade: 65.8
+Subject: LiteratureGrade: 66
+Subject: ChemistryGrade: 50
+Subject: MathematicsGrade: 73
+Subject: PhysicsGrade: 65
+Subject: HistoryGrade: 75
+===========================================
+Student: James Average grade: 72.0
+Subject: HistoryGrade: 55
+Subject: MathematicsGrade: 75
+Subject: LiteratureGrade: 70
+Subject: ChemistryGrade: 80
+Subject: PhysicsGrade: 80
+===========================================
+Student: Alex Average grade: 82.8
+Subject: ChemistryGrade: 75
+Subject: MathematicsGrade: 89
+Subject: LiteratureGrade: 90
+Subject: HistoryGrade: 95
+Subject: PhysicsGrade: 65
+===========================================
+Student: Alina Average grade: 83.0
+Subject: PhysicsGrade: 70
+Subject: MathematicsGrade: 90
+Subject: LiteratureGrade: 88
+Subject: HistoryGrade: 78
+Subject: ChemistryGrade: 89
+===========================================
+Student: Antony Average grade: 86.4
+Subject: PhysicsGrade: 91
+Subject: HistoryGrade: 82
+Subject: MathematicsGrade: 93
+Subject: LiteratureGrade: 78
+Subject: ChemistryGrade: 88
