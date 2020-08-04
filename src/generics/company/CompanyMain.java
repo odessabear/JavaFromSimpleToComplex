@@ -26,12 +26,17 @@ public class CompanyMain {
         company.addDepartment(management);
 
         System.out.println(company);
-
+        System.out.println("============================================================");
         company.print(company.getDepartments());
         company.print(company.getEmployees());
 
         company.addToITEmployees(itGuys.getEmployees());
         company.addToITEmployees(company.getEmployees());
+
+        System.out.println("===================================================");
+        System.out.println(itGuys);
+        company.print(company.getEmployees());
+        System.out.println(company);
 
     }
 }

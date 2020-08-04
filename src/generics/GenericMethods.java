@@ -17,7 +17,6 @@ public class GenericMethods {
 
         System.out.println("Max for array of integers " + findMax(intArray));
         System.out.println("Max for array of Double " + findMax(doubleArray));
-        //System.out.println("Max for array of String " + findMax(stringArray));
 
         List<Number> list = new ArrayList<>();
         list.add(1);
@@ -41,7 +40,7 @@ public class GenericMethods {
 
 
     private static <T> void printArray(T[] intArray) {
-        System.out.println("generic method called");
+        System.out.println("Generic method called");
         for (T element : intArray) {
             System.out.printf("%s, ", element);
         }
