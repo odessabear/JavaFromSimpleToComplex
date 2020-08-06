@@ -37,6 +37,25 @@ public class LambdaExample {
         processElements(doubleList, x -> Math.sin(x.doubleValue()));
 
         TimeUtil.measure(() -> Arrays.sort(createRandomArray()));
+
+        String s = "Hello ";
+        Double d = 0.123;
+
+        TransformUtils<Double> doubleUtils = new TransformUtils<>();
+        System.out.println(doubleUtils.transform(d, Math::sin));
+
+        TransformUtils<String> stringTransformUtils = new TransformUtils<>();
+        System.out.println(stringTransformUtils.transform(s, TransformUtils::exclaim));
+
+        String suffix = "Alex";
+        System.out.println(stringTransformUtils.transform(suffix, s::concat));
+
+        System.out.println(stringTransformUtils.transform(s,String::toUpperCase));
+        System.out.println(stringTransformUtils.transform(s,String::new));
+
+        LambdaScopeTest scope = new LambdaScopeTest();
+        LambdaScopeTest.LambdaScopeInner inner = scope.new LambdaScopeInner();
+        inner.testsScope(9999.0000);
     }
 
     private static <T extends Number> void processElements(List<T> tList, ElementProcessor function) {
