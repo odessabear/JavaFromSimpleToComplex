@@ -26,19 +26,20 @@ public class LambdasMain {
 
         System.out.println(Arrays.toString(players));
 
-        Arrays.sort(colors, new Comparator<String>() {
-            @Override
-            public int compare(String s1, String s2) {
-                return s1.charAt(s1.length() - 1) - s2.charAt(s2.length() - 1);
-            }
-        });
+//        Arrays.sort(colors, new Comparator<String>() {
+//            @Override
+//            public int compare(String s1, String s2) {
+//                return s1.charAt(s1.length() - 1) - s2.charAt(s2.length() - 1);
+//            }
+//        });
 
-        System.out.println(Arrays.toString(colors));
+
 
         Arrays.sort(colors, (s1, s2) ->
                 s1.charAt(s1.length() - 1) - s2.charAt(s2.length() - 1)
         );
 
+        System.out.println(Arrays.toString(colors));
 
 
     }
