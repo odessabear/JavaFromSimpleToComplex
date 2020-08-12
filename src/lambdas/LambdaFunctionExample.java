@@ -1,6 +1,9 @@
 package lambdas;
 
 import lambdas.model.*;
+import lambdas.model.shapes1.Circle;
+import lambdas.model.shapes1.Rectangle;
+import lambdas.model.shapes1.Square;
 
 import java.util.ArrayList;
 import java.util.List;

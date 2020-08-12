@@ -11,11 +11,27 @@ interface ElementProcessor<T extends Number> {
 }
 
 @FunctionalInterface
-interface ExecutiveFunction {
+interface Operation {
     void process();
+
+    static void measure(Operation function) {
+        long start = System.currentTimeMillis();
+        function.process();
+        long end = System.currentTimeMillis();
+        System.out.println("Spent time : " + (end - start));
+    }
+
+    default Operation combineOperation(Operation that) {
+        return () -> {
+            process();
+            that.process();
+        };
+    }
 }
 
 public class LambdaExample {
+
+    private static Operation TimeUtil;
 
     public static void main(String[] args) {
 
@@ -36,7 +52,11 @@ public class LambdaExample {
         processElements(intList, x -> Math.sin(x.doubleValue()));
         processElements(doubleList, x -> Math.sin(x.doubleValue()));
 
-        TimeUtil.measure(() -> Arrays.sort(createRandomArray()));
+
+        Operation operation1 = () -> Arrays.sort(createRandomArray());
+        Operation operation2 = () -> Arrays.sort(createRandomArray());
+        Operation.measure(operation1.combineOperation(operation2));
+
 
         String s = "Hello ";
         Double d = 0.123;
@@ -50,8 +70,8 @@ public class LambdaExample {
         String suffix = "Alex";
         System.out.println(stringTransformUtils.transform(suffix, s::concat));
 
-        System.out.println(stringTransformUtils.transform(s,String::toUpperCase));
-        System.out.println(stringTransformUtils.transform(s,String::new));
+        System.out.println(stringTransformUtils.transform(s, String::toUpperCase));
+        System.out.println(stringTransformUtils.transform(s, String::new));
 
         LambdaScopeTest scope = new LambdaScopeTest();
         LambdaScopeTest.LambdaScopeInner inner = scope.new LambdaScopeInner();
@@ -79,12 +99,4 @@ public class LambdaExample {
         return myArray;
     }
 
-    public static class TimeUtil {
-        private static void measure(ExecutiveFunction function) {
-            long start = System.currentTimeMillis();
-            function.process();
-            long end = System.currentTimeMillis();
-            System.out.println("Spent time : " + (end - start));
-        }
-    }
 }
