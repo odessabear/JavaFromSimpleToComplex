@@ -1,0 +1,21 @@
+IntelliJ
+IDEA
+2020.2
+lets
+you
+review
+and
+merge
+GitHub
+pull
+requests
+right
+from
+inside
+the IDE
+quickly
+navigate
+between
+warnings
+and e
+errors
