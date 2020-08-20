@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -44,7 +46,64 @@ public class StreamsOverviewMain {
         //testStreamFromFile();
 
         //  testSortAndReduce();
+        //partitionByIncome();
+        //groupByCriterion(Employee::getDepartment);
 
+        Supplier<Integer> integerSupplier = new Supplier<Integer>() {
+            private int previous = 0;
+            private int current = 1;
+
+            @Override
+            public Integer get() {
+                int next = previous + current;
+                previous = current;
+                current = next;
+                return current;
+            }
+        };
+
+        testStreamGenerator(10, integerSupplier);
+        //testStreamIterator(10);
+        //testParallelStream();
+
+    }
+
+    private static void testParallelStream() throws IOException {
+        employeeList.parallelStream()
+                .map(Employee::getId)
+                .sorted()
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+
+        Files.lines(Paths.get("words.txt"))
+                .parallel()
+                .collect(Collectors.toCollection(TreeSet::new))
+                .forEach(System.out::println);
+    }
+
+    private static void testStreamIterator(int limit) {
+        Stream.iterate(1, e -> e * 3).limit(limit).forEach(System.out::println);
+    }
+
+    private static <T> void testStreamGenerator(long limit, Supplier<T> supplier) {
+        Stream.generate(supplier)
+                .parallel()
+                .limit(limit)
+                .forEach(System.out::println);
+    }
+
+    private static void partitionByIncome() {
+        Map<Boolean, List<Employee>> collectedEmployees = employeeList.stream()
+                .collect(Collectors.partitioningBy(e -> e.getSalary() > 70000));
+        System.out.println("Poor Employees :");
+        System.out.println(collectedEmployees.get(false));
+        System.out.println("Rich employees :");
+        System.out.println(collectedEmployees.get(true));
+    }
+
+    private static <R> void groupByCriterion(Function<Employee, R> function) {
+        Map<R, List<Employee>> collectedEmployees = employeeList.stream().collect(Collectors.groupingBy(function));
+        collectedEmployees.keySet().stream().forEach(e -> System.out.println(e + "\n" + collectedEmployees.get(e)));
     }
 
     private static void testSortAndReduce() {
