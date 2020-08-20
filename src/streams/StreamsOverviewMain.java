@@ -15,35 +15,35 @@ public class StreamsOverviewMain {
 
     public static void main(String[] args) throws IOException {
 
-        employeeList.add(new Employee(1, "Alex", "Black", 50000));
-        employeeList.add(new Employee(2, "John", "Green", 75000));
-        employeeList.add(new Employee(6, "Sam", "Brown", 80000));
-        employeeList.add(new Employee(9, "Tony", "Grey", 90000));
-        employeeList.add(new Employee(10, "Mike", "Yellow", 60000));
-        employeeList.add(new Employee(11, "Viktoria", "Pink", 75000));
-        employeeList.add(new Employee(16, "Sean", "Magenta", 80000));
-        employeeList.add(new Employee(19, "Kate", "Black", 80000));
-        employeeList.add(new Employee(9, "Tony", "Grey", 90000));
-        employeeList.add(new Employee(10, "Mike", "Yellow", 60000));
-        employeeList.add(new Employee(11, "Viktoria", "Pink", 75000));
+        employeeList.add(new Employee(1, "Alex", "Black", 50000, "IT"));
+        employeeList.add(new Employee(2, "John", "Green", 75000, "IT"));
+        employeeList.add(new Employee(6, "Sam", "Brown", 80000, "IT"));
+        employeeList.add(new Employee(9, "Tony", "Grey", 90000, "IT"));
+        employeeList.add(new Employee(10, "Mike", "Yellow", 60000, "IT"));
+        employeeList.add(new Employee(11, "Viktoria", "Pink", 75000, "IT"));
+        employeeList.add(new Employee(16, "Sean", "Magenta", 80000, "Finance"));
+        employeeList.add(new Employee(19, "Kate", "Black", 80000, "Finance"));
+        employeeList.add(new Employee(9, "Tony", "Grey", 90000, "Finance"));
+        employeeList.add(new Employee(10, "Mike", "Yellow", 60000, "IT"));
+        employeeList.add(new Employee(11, "Viktoria", "Pink", 75000, "Finance"));
 
 
-        secondList.add(new Employee(1, "Alex", "Black", 50000));
-        secondList.add(new Employee(2, "John", "Green", 75000));
-        secondList.add(new Employee(6, "Sam", "Brown", 80000));
-        secondList.add(new Employee(9, "Tony", "Grey", 90000));
-        secondList.add(new Employee(10, "Mike", "Yellow", 60000));
-        secondList.add(new Employee(11, "Viktoria", "Pink", 75000));
-        secondList.add(new Employee(16, "Sean", "Magenta", 80000));
-        secondList.add(new Employee(19, "Kate", "Black", 80000));
-        secondList.add(new Employee(9, "Tony", "Grey", 90000));
-        secondList.add(new Employee(10, "Mike", "Yellow", 60000));
-        secondList.add(new Employee(11, "Viktoria", "Pink", 75000));
+        secondList.add(new Employee(1, "Alex", "Black", 50000, "Finance"));
+        secondList.add(new Employee(2, "John", "Green", 75000, "Finance"));
+        secondList.add(new Employee(6, "Sam", "Brown", 80000, "IT"));
+        secondList.add(new Employee(9, "Tony", "Grey", 90000, "Finance"));
+        secondList.add(new Employee(10, "Mike", "Yellow", 60000, "Finance"));
+        secondList.add(new Employee(11, "Viktoria", "Pink", 75000, "IT"));
+        secondList.add(new Employee(16, "Sean", "Magenta", 80000, "IT"));
+        secondList.add(new Employee(19, "Kate", "Black", 80000, "IT"));
+        secondList.add(new Employee(9, "Tony", "Grey", 90000, "Finance"));
+        secondList.add(new Employee(10, "Mike", "Yellow", 60000, "Finance"));
+        secondList.add(new Employee(11, "Viktoria", "Pink", 75000, "Finance"));
 
         //testStreamFromList();
-        //  testStreamFromFile();
+        //testStreamFromFile();
 
-        testSortAndReduce();
+        //  testSortAndReduce();
 
     }
 
@@ -67,7 +67,7 @@ public class StreamsOverviewMain {
         System.out.println();
 
 
-        Employee identity = new Employee(0, "", "", 0);
+        Employee identity = new Employee(0, "", "", 0, "");
         Employee reduceEmployee = employeeList.stream()
                 .reduce(identity, (e1, e2) -> {
                     e1.setId(e1.getId() + e2.getId());
@@ -119,8 +119,9 @@ public class StreamsOverviewMain {
         Files.lines(Paths.get("words.txt"))
                 .filter(e -> e.length() > 4)
                 .map(String::toUpperCase)
-                .distinct()
-                .sorted()
+                //            .distinct()
+                //           .sorted()
+                .collect(Collectors.toCollection(TreeSet::new))
                 .forEach(System.out::println);
     }
 

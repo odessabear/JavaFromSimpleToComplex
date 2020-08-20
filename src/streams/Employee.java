@@ -8,17 +8,18 @@ public class Employee {
     private String firstName;
     private String lastName;
     private int salary;
+    private String department;
 
     public Employee() {
     }
 
-    public Employee(int id, String firstName, String lastName, int salary) {
+    public Employee(int id, String firstName, String lastName, int salary, String department) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
+        this.department = department;
     }
-
 
     public String getFirstName() {
         return firstName;
@@ -52,6 +53,14 @@ public class Employee {
         this.id = id;
     }
 
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -60,12 +69,13 @@ public class Employee {
         return id == employee.id &&
                 salary == employee.salary &&
                 Objects.equals(firstName, employee.firstName) &&
-                Objects.equals(lastName, employee.lastName);
+                Objects.equals(lastName, employee.lastName) &&
+                Objects.equals(department, employee.department);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName, salary);
+        return Objects.hash(id, firstName, lastName, salary, department);
     }
 
     @Override
@@ -75,6 +85,7 @@ public class Employee {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", salary=" + salary +
+                ", department='" + department + '\'' +
                 '}';
     }
 }
